@@ -1,6 +1,12 @@
 // *Variables*
 // Declare a variable and assign it to a sentance as a string. Alert if the sentance is a question
+let sentence = "one two three it's me?"
 
+
+if (sentence.indexOf('?') > -1)
+{
+  alert("stop asking questions");
+}
 //Declare a variable, assign it a string of multiple words, replace every "jr. dev" with "software engineer", and print it to the console
 
 // *Functions*
