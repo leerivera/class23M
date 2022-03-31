@@ -4,15 +4,18 @@ function MakeSkater(playerName, playerSpeed, playerAgility, playerStamina){
     this.speed = playerSpeed
     this.agility = playerAgility
     this.stamina = playerStamina
-}
-this.jump = function(){
+
+ this.jump = function(){
     alert('jumped')
-}
+ }
 
-this.race =function(){
+ this.race =function(){
     alert("fast")
+ }
+
+ this.alley = function(){
+    alert('alleyed')
+ }
 }
 
-this.alley = function(){
-    alert('alleyed')
-}
+let bifBiggs = new MakeSkater('biff', '89', '88', '70')
