@@ -7,7 +7,8 @@ if (sent.indexOf('?') > -1){
 
 // //Declare a variable, assign it a string of multiple words, replace every "jr. dev" with "software engineer", and print it to the console
 // let multi = " jr. dev here are some words for you cul"
-
+let stuff = "I am a junior dev or a software engineer"
+alert(stuff.replaceAll('junior dev', "software enginner"))
 
 
 // *Functions*
